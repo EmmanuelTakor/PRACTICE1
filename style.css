@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding: 0;
+}
+span{
+    font-weight:lighter;
+}
+.mainText h1{
+   margin-bottom: 2%;
+   margin-left: 12%;
+}
+.stickyContainer{
+    display: flex;
+    justify-content:flex-end;
+}
+.stickyNav{
+height: 50vh;
+width: 3vw;
+background-color: beige;
+position: fixed;
+top: 3%;
+}
+
+.backgroundImage{
+    height: 70vh;
+    background-image: url(./image1.jpg);
+    background-position:100% 25%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: serif;
+}
+.container{
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.596);
+}
+/* .sub1{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.mainText{
+padding-top: 28vh;
+padding-left: 35vw;
+}
+
+.threeBoxes{
+display: flex;
+justify-content: space-around;
+padding-top: 1%;
+}
+.threeBoxes img{
+    height: 35vh;
+    width: 25vw;
+    box-shadow: 10px 10px -2px 5px;
+}
+.box1{
+    height: 35vh;
+    width: 25vw;
+    background-color:rgb(145, 26, 26);
+
+    
+}
+.box2{
+      height: 35vh;
+    width: 25vw;
+    background-color: blue;
+}
+.box3{
+    height: 35vh;
+    width: 25vw;
+    background-color:yellowgreen;
+}
+.sub1 ul{
+margin-top: 9%;
+display: flex;
+justify-content: space-around;
+}
+.sub1 ul li{
+    margin-left: 1%;
+    list-style-type: none;
+    background-color: transparent;
+    /* height: 5vh; */
+    width: 5vw;
+    height: 5vh;
+    border: 1px solid black ;
+    border-radius: 5%;
+}
+.sub1 ul li a{
+    padding: 8%;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub1 ul li:hover{
+background-color: turquoise;
+}
+.sub1 ul li a:hover{
+    color: black;
+}
